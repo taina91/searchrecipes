@@ -1,0 +1,32 @@
+.text-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  background: #fbfef9;
+  box-shadow: 2px 3px 10px rgba(23, 26, 33, 0.25);
+  border-radius: 30px;
+  color: #171a21;
+}
+.intro_h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 20px;
+}
+.intro_p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 20px;
+}
+.recipes {
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none;
+}

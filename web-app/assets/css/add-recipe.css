@@ -1,0 +1,120 @@
+.main-info {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+.inp-foto {
+  display: grid;
+  justify-items: center;
+  width: 150px;
+  display: grid;
+  align-items: center;
+  align-self: start;
+}
+.inp-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.inp-foto input[type="file"] {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+.main-info__else {
+  margin-left: 50px;
+  display: grid;
+  align-items: start;
+  justify-items: start;
+  /* justify-content: space-between; */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+input[type="text"],
+input[type="time"],
+input[type="number"],
+select {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  border: solid 1px #171a21;
+  padding: 3px;
+  border-radius: 10px;
+  margin: 10px;
+}
+input[type="text"] {
+  width: 500px;
+}
+.selector {
+  align-self: start;
+  margin-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.ingr {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.steps {
+  display: grid;
+  text-align: start;
+}
+.step__item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+textarea {
+  margin-left: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.add-button {
+  margin: 10px;
+  margin-left: 0;
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: none;
+  background-image: url("../img/add.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.add-submit {
+  width: 200px;
+  padding: 12px;
+  background: #fbfef9;
+  text-align: center;
+  box-shadow: 2px 3px 10px rgba(23, 26, 33, 0.25);
+  border-radius: 20px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+
+  cursor: pointer;
+  border: none;
+  justify-self: center;
+  margin: 10px 40%;
+}

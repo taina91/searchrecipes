@@ -1,0 +1,39 @@
+.panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.panel__button {
+  padding: 12px;
+  margin: 20px;
+  background: #fbfef9;
+  text-align: center;
+  box-shadow: 2px 3px 10px rgba(23, 26, 33, 0.25);
+  border-radius: 20px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+  cursor: pointer;
+  border: none;
+}
+
+.del-but{
+	position: sticky;
+    background: #53917E;
+    padding: 12px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 2px 3px 10px rgb(23 26 33 / 25%);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fbfef9;
+    bottom: 5%;
+}

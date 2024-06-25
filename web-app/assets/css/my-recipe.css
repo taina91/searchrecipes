@@ -1,0 +1,30 @@
+.add-recip-button {
+  width: 200px;
+  padding: 12px;
+  background: #fbfef9;
+  text-align: center;
+  box-shadow: 2px 3px 10px rgba(23, 26, 33, 0.25);
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin: 10px;
+  margin-top: 0;
+}
+.add_p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #171a21;
+}
+.add-img {
+  height: 30px;
+  background-image: url("../img/add.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

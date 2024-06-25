@@ -1,0 +1,75 @@
+.recipes__text {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	margin-top: 50px;
+	color: #171A21;
+	background: #FBFEF9;
+	box-shadow: 2px 3px 10px rgba(23, 26, 33, 0.25);
+	border-radius: 30px;
+	padding: 20px;
+}
+.recipes__text__info {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	position: sticky;
+	top: 0;
+}
+.recipes__text__info__product {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: start;
+	margin-top: 15px;
+	position: sticky;
+	top: 40px;
+}
+.portion{
+	width: 50px;
+	height: 45px;
+	text-align: center;
+}
+.product {
+	justify-self: start;
+	display: inline;
+	margin: 3px;
+}
+.count {
+	justify-self: end;
+	display: inline;
+	margin: 3px;
+}
+.recipes__text__steps {
+	margin-left: 50px;
+}
+.step{
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+}
+.step__text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.step__img {
+	width: 710px;
+	/* background: #53917E; */
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.step__img img{
+	width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+	border-radius: 20px;
+}
+
+.hidden {
+	display: none;
+}

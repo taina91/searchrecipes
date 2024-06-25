@@ -1,0 +1,108 @@
+.add-product-button {
+  width: 200px;
+  padding: 12px;
+  background: #fbfef9;
+  text-align: center;
+  box-shadow: 2px 3px 10px rgba(23, 26, 33, 0.25);
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin: 36px;
+}
+.add_p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #171a21;
+}
+.add-img {
+  height: 30px;
+  background-image: url("../img/add.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.prod-talbe {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+}
+.prod-talbe thead th {
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  padding: 10px 15px;
+  background: rgba(83, 145, 126, 0.5);
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.prod-talbe tbody td {
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 14px;
+  vertical-align: top;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+.prod-talbe tbody tr:nth-child(even) {
+  background: rgba(83, 145, 126, 0.25);
+}
+
+.add-product {
+  display: grid;
+  grid-template-columns: 4fr 1fr 55px;
+}
+select {
+  padding: 10px;
+  margin: 10px;
+  width: 98%;
+  font-family: "Open Sans", sans-serif;
+  border: solid 1px #171a21;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 16px;
+}
+input[type="number"],
+input[type="text"] {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 10px;
+  padding: 9px;
+  border: solid 1px #171a21;
+  border-radius: 5px;
+}
+.add-button {
+  margin: 10px;
+  margin-left: 0;
+  background: none;
+  border: none;
+  background-image: url("../img/add.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.no-product {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: start;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
